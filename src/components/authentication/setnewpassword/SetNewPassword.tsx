@@ -39,8 +39,9 @@ const SetNewPassword = () => {
                             {/* <Image src={EyeOpen} alt="" className='eye-open' /> */}
                         </span>
                     </FloatingLabel>
-
-                    <button className='btn-theme btn-yellow w-100'>Set Password</button>
+                    <Link href="/authentication/signin">
+                        <button className='btn-theme btn-yellow w-100'>Set Password</button>
+                    </Link>
 
                     </div>
                    

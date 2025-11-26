@@ -41,10 +41,11 @@ const Signin = () => {
                         </span>
                     </FloatingLabel>
                     <div className="forgot-link text-center mb-40">
-                        <Link href="" className='link-underline-text'>Forgot Password?</Link>
+                        <Link href="/authentication/forgotpassword" className='link-underline-text'>Forgot Password?</Link>
                     </div>
-
-                    <button className='btn-theme btn-yellow w-100 mb-48'>Sign in</button>
+                    <Link href="/discovermentorflow/discover">
+                        <button className='btn-theme btn-yellow w-100 mb-48'>Sign in</button>
+                    </Link>
 
                     <div className='d-flex align-items-center justify-content-center or'>
                         <div className='px-0'>----</div>
@@ -86,8 +87,8 @@ const Signin = () => {
                     </div>
 
                     <div className='create-account'>
-                        <p className='m-0'>Don't have an account? <Link href="javascript:void(0)"
-                            className='link-underline-text'> Create Account </Link></p>
+                        <p className='m-0'>Don't have an account? 
+                            <Link href="/authentication/signup" className='link-underline-text'> Create Account </Link></p>
                     </div>
                 </div>
             </div>

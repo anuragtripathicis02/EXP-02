@@ -129,9 +129,9 @@ h2 {
 }
 
 .btn-yellow-border {
-  color: var(--black);
   border: 1px solid var(--primary-color);
   background-color: #fff;
+  color: var(--black) !important;
 }
 
 .my-splash {
@@ -4924,6 +4924,10 @@ button.view-more {
     width: 55px;
     height: 50px;
   }
+}
+
+a:hover {
+  text-decoration: none !important;
 }
 
 /*# sourceMappingURL=raju-sir_EXP-I_EXP-02_src_app_globals_css_bad6b30c._.single.css.map*/

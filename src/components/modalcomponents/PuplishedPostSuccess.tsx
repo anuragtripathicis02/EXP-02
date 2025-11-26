@@ -33,10 +33,10 @@ const PuplishedPostSuccess = ({ show, handleClose }: any) => {
                 <button className='btn-theme btn-white'>
                     View My Post
                 </button>
-                <button
+                <Link href="/createPosts/createPostData"
                     className='btn-theme btn-yellow flex-grow-1'>
                     Back to Feed
-                </button>
+                </Link>
             </Modal.Footer>
 
         </Modal>

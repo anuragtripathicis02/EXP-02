@@ -134,13 +134,13 @@ const CreatePostData = () => {
             </div>
           </div>
           <div className='bt-box-upload mt-4 d-md-block d-none'>
-            <Link href="" className='w-100 btn-theme btn-yellow submit-btn'>Continue</Link>
+            <Link href="/createPosts/postPreview" className='w-100 btn-theme btn-yellow submit-btn'>Continue</Link>
           </div>
         </div>
 
       </div>
         <div className='bt-box-upload mt-4 d-md-none d-block'>
-        <Link href="" className='w-100 btn-theme btn-yellow submit-btn'>Continue</Link>
+        <Link href="/createPosts/postPreview" className='w-100 btn-theme btn-yellow submit-btn'>Continue</Link>
         </div>
     </div>
   );

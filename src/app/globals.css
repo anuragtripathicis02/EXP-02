@@ -81,6 +81,7 @@ h2 {
    background: var(--button-yellow-bg); 
    border: 1px solid var(--button-yellow-border);
    color: var(--button-yellow-text); 
+
 }
 
 .btn-black {
@@ -105,7 +106,7 @@ h2 {
 }
 
 .btn-yellow-border {
-    color: var(--black);
+    color: var(--black) !important;
     border: 1px solid var(--primary-color);
     background-color: #FFFFFF;
 }
@@ -4303,4 +4304,9 @@ button.btn-download-invoice {
     height: 50px;
 }
 
+}
+
+
+a:hover {
+    text-decoration: none !important;
 }

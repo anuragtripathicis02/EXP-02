@@ -20,6 +20,7 @@ const SearchDiscoverUsers = () => {
                     <h3 className='block-title'>Connect with an expert in your field</h3>
                     <div className='row gx-3'>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -42,9 +43,11 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -67,9 +70,11 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -92,9 +97,11 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -117,9 +124,11 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -142,9 +151,11 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -167,9 +178,11 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -192,9 +205,11 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                         <div className='col-md-6'>
+                            <Link href="/discovermentorflow/profiledetails">
                             <div className="expert-card">
                                 <div className='d-flex'>
                                     <div className='useImgbox'>
@@ -217,6 +232,7 @@ const SearchDiscoverUsers = () => {
                                 </div>
                                 <p className="desc mb-0">Helping students navigate the world of data and AI</p>
                             </div>
+                            </Link>
 
                         </div>
                     </div>

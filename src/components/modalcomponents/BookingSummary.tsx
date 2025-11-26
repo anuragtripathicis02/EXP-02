@@ -78,8 +78,12 @@ const BookingSummary = ({ show, handleClose }: any) => {
                 </div>
 
                 <div className='modal-button position-relative z-1'>
-                    <button className="btn-theme btn-yellow w-100">Back to Home</button>
-                    <button className="btn-theme btn-black w-100">View My Bookings</button>
+                    <Link href="/discovermentorflow/discover" className="w-100">
+                        <button className="btn-theme btn-yellow w-100" >Back to Home</button>
+                    </Link>
+                    <Link href="/discovermentorflow/bookingsummeryformentors" className='w-100'>
+                        <button className="btn-theme btn-black w-100">View My Bookings</button>
+                    </Link>
                 </div>
 
             </Modal.Body>

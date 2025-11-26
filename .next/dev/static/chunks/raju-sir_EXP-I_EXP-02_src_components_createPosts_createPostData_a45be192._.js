@@ -15,11 +15,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$E
 ;
 const HeaderTop = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(3);
-    if ($[0] !== "ae6f1fa8028de950700aa524a0754c043b337c993ecb259f024fb1445c5d498c") {
+    if ($[0] !== "c97dc5d167671d50a9ddab2c2a5a65fa0b25448f5e126abd510ecda9faacc066") {
         for(let $i = 0; $i < 3; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ae6f1fa8028de950700aa524a0754c043b337c993ecb259f024fb1445c5d498c";
+        $[0] = "c97dc5d167671d50a9ddab2c2a5a65fa0b25448f5e126abd510ecda9faacc066";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -27,7 +27,7 @@ const HeaderTop = ()=>{
             className: "back-box",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 className: "back-icon",
-                href: "",
+                href: "/discovermentorflow/discover",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "icon",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -41,17 +41,17 @@ const HeaderTop = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/raju-sir/EXP-I/EXP-02/src/components/createPosts/createPostData/HeaderTop.tsx",
                             lineNumber: 17,
-                            columnNumber: 155
+                            columnNumber: 183
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/raju-sir/EXP-I/EXP-02/src/components/createPosts/createPostData/HeaderTop.tsx",
                         lineNumber: 17,
-                        columnNumber: 95
+                        columnNumber: 123
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/raju-sir/EXP-I/EXP-02/src/components/createPosts/createPostData/HeaderTop.tsx",
                     lineNumber: 17,
-                    columnNumber: 72
+                    columnNumber: 100
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/raju-sir/EXP-I/EXP-02/src/components/createPosts/createPostData/HeaderTop.tsx",
@@ -153,11 +153,11 @@ var _s = __turbopack_context__.k.signature();
 const CreatePostData = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(43);
-    if ($[0] !== "0ae603d5cc65b434d67dd37b9e7b3cc6f10ba596a8e28121518e279c4a717d33") {
+    if ($[0] !== "6ec0fc21d5526b550e3613e7d1c0fcabbe4b5f22cb7afb786411dd92df817c21") {
         for(let $i = 0; $i < 43; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0ae603d5cc65b434d67dd37b9e7b3cc6f10ba596a8e28121518e279c4a717d33";
+        $[0] = "6ec0fc21d5526b550e3613e7d1c0fcabbe4b5f22cb7afb786411dd92df817c21";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -591,7 +591,7 @@ const CreatePostData = ()=>{
         t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "bt-box-upload mt-4 d-md-block d-none",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                href: "",
+                href: "/createPosts/postPreview",
                 className: "w-100 btn-theme btn-yellow submit-btn",
                 children: "Continue"
             }, void 0, false, {
@@ -650,7 +650,7 @@ const CreatePostData = ()=>{
         t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "bt-box-upload mt-4 d-md-none d-block",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$raju$2d$sir$2f$EXP$2d$I$2f$EXP$2d$02$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                href: "",
+                href: "/createPosts/postPreview",
                 className: "w-100 btn-theme btn-yellow submit-btn",
                 children: "Continue"
             }, void 0, false, {

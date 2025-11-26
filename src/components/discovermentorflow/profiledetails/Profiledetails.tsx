@@ -81,10 +81,10 @@ const Profiledetails = () => {
                             <div className='btn-box-bottom'>
                                 <ul className='list-unstyled p-0 m-0 d-flex align-items-center gap-2'>
                                     <li className='flex-grow-1 w-50'>
-                                        <Link href="" className='btn-theme btn-yellow-border w-100'>Message</Link>
+                                        <Link href="/messagingFlow/chatconversation" className='btn-theme btn-yellow-border w-100'>Message</Link>
                                     </li>
                                     <li className='flex-grow-1 w-50'>
-                                        <Link href="" className=' btn-theme btn-yellow submit-btn w-100'>Book a session</Link>
+                                        <Link href="/discovermentorflow/sessionbooking" className=' btn-theme btn-yellow submit-btn w-100'>Book a session</Link>
                                     </li>
                                 </ul>
                             </div>

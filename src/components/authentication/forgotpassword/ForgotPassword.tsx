@@ -29,8 +29,9 @@ const ForgotPassword = () => {
                     >
                         <Form.Control type="email" placeholder="Johnsmith1001@gmail.com" />
                     </FloatingLabel>
-
-                    <button className='btn-theme btn-yellow w-100'>Send Email</button>
+                    <Link href="/authentication/verifyemail">
+                        <button className='btn-theme btn-yellow w-100'>Send Email</button>
+                    </Link>
 
                     </div>
                    

@@ -19,8 +19,9 @@ const SetNewPasswordSuccess = () => {
                     <div className='text-start'>
                         <h2>Well Done!</h2>
                         <p className='mb-24'>Your password has been successfully changed. Please your new password to loing!</p>
-
+                        <Link href="/authentication/signin">
                     <button className='btn-theme btn-yellow w-100'>Sign in</button>
+                        </Link>
 
                     </div>
                    

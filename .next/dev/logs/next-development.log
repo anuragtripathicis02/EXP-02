@@ -2,3 +2,1723 @@
 (Use `node --trace-warnings ...` to show where the warning was created)
 [00:00:04.165] Server  LOG      ✓ Ready in 2.7s
 [00:47:57.563] Server  LOG      ○ Compiling /createPosts/createPostData ...
+[01:32:57.276] Server  LOG      ○ Compiling /authentication/signin ...
+[01:32:58.024] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
+[01:32:58.804] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:33:13.996] Server  LOG      ✓ Compiled in 775ms
+[01:33:20.706] Server  LOG      ✓ Compiled in 291ms
+[01:33:22.995] Server  LOG      ✓ Compiled in 78ms
+[01:33:24.206] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:33:26.807] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:27.374] Server  ERROR    ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[01:33:27.436] Server  LOG      ✓ Compiled in 76ms
+[01:33:27.438] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:33:29.107] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:33:29.147] Server  LOG      ✓ Compiled in 128ms
+[01:33:29.305] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:29.680] Server  ERROR    ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[01:33:31.033] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:33:32.163] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:32.515] Server  ERROR    ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `boolean` instead.
+[01:33:32.541] Server  LOG      ✓ Compiled in 115ms
+[01:33:34.042] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `boolean` instead.
+Open your browser's console to view the Component stack trace.
+[01:33:35.657] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:36.054] Server  LOG      ✓ Compiled in 693ms
+[01:33:36.804] Server  LOG      ✓ Compiled in 96ms
+[01:33:37.059] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:33:42.862] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:34:06.972] Server  LOG      ✓ Compiled in 519ms
+[01:34:34.226] Server  LOG      ✓ Compiled in 708ms
+[01:34:36.487] Server  LOG      ✓ Compiled in 89ms
+[01:34:55.594] Server  LOG      ✓ Compiled in 274ms
+[01:35:00.654] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:35:02.783] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:35:48.298] Server  LOG      ✓ Compiled in 59ms
+[01:36:09.671] Server  LOG      ✓ Compiled in 103ms
+[01:36:13.407] Server  LOG      ✓ Compiled in 118ms
+[01:36:14.028] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:36:18.133] Server  LOG      ✓ Compiled in 109ms
+[01:36:19.026] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:65:33
+Parsing ecmascript source code failed
+  63 |                         </span>
+  64 |                     </FloatingLabel>
+> 65 |                     <Link href={/discovermentorflow/discover}>
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                     </Link>
+  67 |                     <button className='btn-theme btn-yellow w-100 mb-3'>Sign Up</button>
+  68 |
+
+Unknown regular expression flags.
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:36:19.027] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:65:33
+Parsing ecmascript source code failed
+  63 |                         </span>
+  64 |                     </FloatingLabel>
+> 65 |                     <Link href={/discovermentorflow/discover}>
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                     </Link>
+  67 |                     <button className='btn-theme btn-yellow w-100 mb-3'>Sign Up</button>
+  68 |
+
+Unknown regular expression flags.
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:36:21.023] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:65:33
+Parsing ecmascript source code failed
+  63 |                         </span>
+  64 |                     </FloatingLabel>
+> 65 |                     <Link href={/discovermentorflow/discover">
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                     </Link>
+  67 |                     <button className='btn-theme btn-yellow w-100 mb-3'>Sign Up</button>
+  68 |
+
+Unknown regular expression flags.
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:36:21.023] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:65:61
+Parsing ecmascript source code failed
+  63 |                         </span>
+  64 |                     </FloatingLabel>
+> 65 |                     <Link href={/discovermentorflow/discover">
+     |                                                             ^^
+  66 |                     </Link>
+  67 |                     <button className='btn-theme btn-yellow w-100 mb-3'>Sign Up</button>
+  68 |
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:36:21.023] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:65:33
+Parsing ecmascript source code failed
+  63 |                         </span>
+  64 |                     </FloatingLabel>
+> 65 |                     <Link href={/discovermentorflow/discover">
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  66 |                     </Link>
+  67 |                     <button className='btn-theme btn-yellow w-100 mb-3'>Sign Up</button>
+  68 |
+
+Unknown regular expression flags.
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:36:21.023] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:65:61
+Parsing ecmascript source code failed
+  63 |                         </span>
+  64 |                     </FloatingLabel>
+> 65 |                     <Link href={/discovermentorflow/discover">
+     |                                                             ^^
+  66 |                     </Link>
+  67 |                     <button className='btn-theme btn-yellow w-100 mb-3'>Sign Up</button>
+  68 |
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:36:23.440] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:36:26.273] Server  LOG      ✓ Compiled in 714ms
+[01:36:43.991] Server  LOG      ✓ Compiled in 101ms
+[01:37:06.151] Server  LOG      ✓ Compiled in 95ms
+[01:37:12.023] Server  LOG      ✓ Compiled in 107ms
+[01:37:15.367] Server  LOG      ✓ Compiled in 91ms
+[01:37:21.479] Server  LOG      ✓ Compiled in 48ms
+[01:37:24.135] Server  LOG      ✓ Compiled in 44ms
+[01:37:24.243] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:72:81
+Parsing ecmascript source code failed
+  70 |                         <p className='m-0'>By clicking, I accept EXP <Link href="/profileflow/termsConditions"
+  71 |                             className='link-underline-text'> Term & Conditions,</Link>& <Link href="/profileflow/termsConditions"
+> 72 |                             className='link-underline-text'>Privacy Policy  </p>
+     |                                                                                 ^
+> 73 |                     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^
+  74 |                    
+  75 |
+  76 |                     <div className='create-account'>
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:37:25.033] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx:72:81
+Parsing ecmascript source code failed
+  70 |                         <p className='m-0'>By clicking, I accept EXP <Link href="/profileflow/termsConditions"
+  71 |                             className='link-underline-text'> Term & Conditions,</Link>& <Link href="/profileflow/termsConditions"
+> 72 |                             className='link-underline-text'>Privacy Policy  </p>
+     |                                                                                 ^
+> 73 |                     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^
+  74 |                    
+  75 |
+  76 |                     <div className='create-account'>
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Signup.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/signup/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/signup/page.tsx
+[01:37:37.627] Server  LOG      ✓ Compiled in 141ms
+[01:37:44.827] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:37:44.827] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:38:04.501] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:38:11.171] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/authentic..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/raju-sir/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[01:38:24.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:38:24.326] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:38:56.421] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:39:29.018] Server  LOG      ✓ Compiled in 74ms
+[01:39:30.016] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:39:34.070] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:39:34.520] Server  LOG      ✓ Compiled in 60ms
+[01:39:35.045] Browser WARN    Image with src "/_next/static/media/forgot-pass-img.10e0b0da.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:39:41.118] Server  LOG      ✓ Compiled in 44ms
+[01:39:43.322] Server  LOG      ✓ Compiled in 640ms
+[01:39:44.425] Server  LOG      ✓ Compiled in 64ms
+[01:39:46.029] Server  LOG      ✓ Compiled in 45ms
+[01:39:50.293] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:40:17.226] Server  LOG      ✓ Compiled in 19ms
+[01:40:20.253] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:41:05.249] Server  LOG      ✓ Compiled in 48ms
+[01:41:34.651] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:41:50.241] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:42:06.122] Server  LOG      ✓ Compiled in 30ms
+[01:42:20.504] Server  LOG      ✓ Compiled in 89ms
+[01:42:21.016] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:42:22.583] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:42:22.608] Server  LOG      ✓ Compiled in 45ms
+[01:42:23.020] Server  ERROR    ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[01:42:23.062] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:42:25.049] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:42:28.247] Server  LOG      ✓ Compiled in 79ms
+[01:42:28.253] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:42:32.492] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:42:32.492] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:42:43.789] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:43:06.149] Server  LOG      ✓ Compiled in 62ms
+[01:43:14.092] Server  LOG      ✓ Compiled in 55ms
+[01:43:15.026] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:43:16.488] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:43:16.863] Server  ERROR    ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[01:43:16.962] Server  LOG      ✓ Compiled in 35ms
+[01:43:19.030] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:43:20.412] Server  LOG      ✓ Compiled in 17ms
+[01:43:21.019] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx:23:25
+Parsing ecmascript source code failed
+  21 |                         <p className='mb-24'>Your password has been successfully changed. Please your new password to loing!</p>
+  22 |                         <Link href={}>
+> 23 |                         </Link>
+     |                         ^
+  24 |                     <button className='btn-theme btn-yellow w-100'>Sign in</button>
+  25 |
+  26 |                     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/setnewpasswordsuccess/page.tsx
+[01:43:21.019] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx:23:26
+Parsing ecmascript source code failed
+  21 |                         <p className='mb-24'>Your password has been successfully changed. Please your new password to loing!</p>
+  22 |                         <Link href={}>
+> 23 |                         </Link>
+     |                          ^^^^^^
+  24 |                     <button className='btn-theme btn-yellow w-100'>Sign in</button>
+  25 |
+  26 |                     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/setnewpasswordsuccess/page.tsx
+[01:43:21.020] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx:23:25
+Parsing ecmascript source code failed
+  21 |                         <p className='mb-24'>Your password has been successfully changed. Please your new password to loing!</p>
+  22 |                         <Link href={}>
+> 23 |                         </Link>
+     |                         ^
+  24 |                     <button className='btn-theme btn-yellow w-100'>Sign in</button>
+  25 |
+  26 |                     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/setnewpasswordsuccess/page.tsx
+[01:43:21.020] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx:23:26
+Parsing ecmascript source code failed
+  21 |                         <p className='mb-24'>Your password has been successfully changed. Please your new password to loing!</p>
+  22 |                         <Link href={}>
+> 23 |                         </Link>
+     |                          ^^^^^^
+  24 |                     <button className='btn-theme btn-yellow w-100'>Sign in</button>
+  25 |
+  26 |                     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/setnewpasswordsuccess/page.tsx
+[01:43:21.020] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx:23:25
+Parsing ecmascript source code failed
+  21 |                         <p className='mb-24'>Your password has been successfully changed. Please your new password to loing!</p>
+  22 |                         <Link href={}>
+> 23 |                         </Link>
+     |                         ^
+  24 |                     <button className='btn-theme btn-yellow w-100'>Sign in</button>
+  25 |
+  26 |                     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/setnewpasswordsuccess/page.tsx
+[01:43:21.020] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx:23:26
+Parsing ecmascript source code failed
+  21 |                         <p className='mb-24'>Your password has been successfully changed. Please your new password to loing!</p>
+  22 |                         <Link href={}>
+> 23 |                         </Link>
+     |                          ^^^^^^
+  24 |                     <button className='btn-theme btn-yellow w-100'>Sign in</button>
+  25 |
+  26 |                     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/SetNewPasswordSuccess.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/authentication/setnewpasswordsuccess/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/authentication/setnewpasswordsuccess/page.tsx
+[01:43:25.444] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:43:25.458] Server  LOG      ✓ Compiled in 3.1s
+[01:43:26.306] Browser WARN    Image with src "/_next/static/media/new-password-done.821a640c.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:43:27.241] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[01:43:27.241] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:45:25.426] Server  LOG      ✓ Compiled in 625ms
+[01:45:29.381] Server  LOG      ✓ Compiled in 95ms
+[01:45:55.939] Server  LOG      ✓ Compiled in 117ms
+[01:46:36.863] Server  LOG      ✓ Compiled in 92ms
+[01:46:39.031] Server  LOG      ✓ Compiled in 46ms
+[01:47:00.758] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[01:47:00.759] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[01:47:00.759] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[01:47:01.621] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:47:01.621] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:47:01.621] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[01:47:01.621] Browser WARN    Image with src "http://localhost:3000/_next/static/media/wallet-coin.7bbbbb0d.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:47:47.364] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:47:47.364] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:47:47.364] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[01:47:51.895] Server  LOG      ○ Compiling /profileflow/editprofilestudent ...
+[01:48:04.236] Server  LOG      ✓ Compiled in 154ms
+[01:48:28.481] Server  LOG      ✓ Compiled in 57ms
+[01:48:30.461] Server  LOG      ✓ Compiled in 166ms
+[01:48:40.773] Server  LOG      ✓ Compiled in 165ms
+[01:48:52.986] Server  LOG      ✓ Compiled in 94ms
+[01:49:00.250] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:50:02.630] Server  LOG      ✓ Compiled in 99ms
+[01:52:41.169] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:53:27.416] Server  LOG      ✓ Compiled in 601ms
+[01:53:33.960] Server  LOG      ✓ Compiled in 4s
+[01:53:34.119] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:53:37.370] Server  LOG      ✓ Compiled in 159ms
+[01:53:37.486] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:23:43
+Parsing ecmascript source code failed
+  21 |                     <div className='row gx-3'>
+  22 |                         <div className='col-md-6'>
+> 23 |                             <Link href={}></Link>
+     |                                           ^
+  24 |                             <div className="expert-card">
+  25 |                                 <div className='d-flex'>
+  26 |                                     <div className='useImgbox'>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:53:37.486] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:23:44
+Parsing ecmascript source code failed
+  21 |                     <div className='row gx-3'>
+  22 |                         <div className='col-md-6'>
+> 23 |                             <Link href={}></Link>
+     |                                            ^^^^^^
+  24 |                             <div className="expert-card">
+  25 |                                 <div className='d-flex'>
+  26 |                                     <div className='useImgbox'>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:53:38.016] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:23:43
+Parsing ecmascript source code failed
+  21 |                     <div className='row gx-3'>
+  22 |                         <div className='col-md-6'>
+> 23 |                             <Link href={}></Link>
+     |                                           ^
+  24 |                             <div className="expert-card">
+  25 |                                 <div className='d-flex'>
+  26 |                                     <div className='useImgbox'>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:53:38.017] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:23:44
+Parsing ecmascript source code failed
+  21 |                     <div className='row gx-3'>
+  22 |                         <div className='col-md-6'>
+> 23 |                             <Link href={}></Link>
+     |                                            ^^^^^^
+  24 |                             <div className="expert-card">
+  25 |                                 <div className='d-flex'>
+  26 |                                     <div className='useImgbox'>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:53:38.389] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:23:39
+Parsing ecmascript source code failed
+  21 |                     <div className='row gx-3'>
+  22 |                         <div className='col-md-6'>
+> 23 |                             <Link href=></Link>
+     |                                       ^^
+  24 |                             <div className="expert-card">
+  25 |                                 <div className='d-flex'>
+  26 |                                     <div className='useImgbox'>
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:53:39.016] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:23:39
+Parsing ecmascript source code failed
+  21 |                     <div className='row gx-3'>
+  22 |                         <div className='col-md-6'>
+> 23 |                             <Link href=></Link>
+     |                                       ^^
+  24 |                             <div className="expert-card">
+  25 |                                 <div className='d-flex'>
+  26 |                                     <div className='useImgbox'>
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:53:44.083] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:53:44.085] Server  LOG      ✓ Compiled in 4s
+[01:53:57.244] Server  LOG      ✓ Compiled in 340ms
+[01:53:57.358] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:47:31
+Parsing ecmascript source code failed
+  45 |                             </div>
+  46 |
+> 47 |                         </div>
+     |                               ^
+> 48 |                         <div className='col-md-6'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |                             <div className="expert-card">
+  50 |                                 <div className='d-flex'>
+  51 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:53:58.023] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:47:31
+Parsing ecmascript source code failed
+  45 |                             </div>
+  46 |
+> 47 |                         </div>
+     |                               ^
+> 48 |                         <div className='col-md-6'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |                             <div className="expert-card">
+  50 |                                 <div className='d-flex'>
+  51 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:01.605] Server  LOG      ✓ Compiled in 3s
+[01:54:05.250] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:54:11.128] Server  LOG      ✓ Compiled in 192ms
+[01:54:11.235] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:74:31
+Parsing ecmascript source code failed
+  72 |                             </div>
+  73 |
+> 74 |                         </div>
+     |                               ^
+> 75 |                         <div className='col-md-6'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                             <div className="expert-card">
+  77 |                                 <div className='d-flex'>
+  78 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:12.026] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:74:31
+Parsing ecmascript source code failed
+  72 |                             </div>
+  73 |
+> 74 |                         </div>
+     |                               ^
+> 75 |                         <div className='col-md-6'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                             <div className="expert-card">
+  77 |                                 <div className='d-flex'>
+  78 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:15.658] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:74:31
+Parsing ecmascript source code failed
+  72 |                             </div>
+  73 |
+> 74 |                         </div>
+     |                               ^
+> 75 |                         <div className='col-md-6'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                             <div className="expert-card">
+  77 |                                 <div className='d-flex'>
+  78 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:16.014] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:74:31
+Parsing ecmascript source code failed
+  72 |                             </div>
+  73 |
+> 74 |                         </div>
+     |                               ^
+> 75 |                         <div className='col-md-6'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  76 |                             <div className="expert-card">
+  77 |                                 <div className='d-flex'>
+  78 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:18.479] Server  LOG      ✓ Compiled in 33ms
+[01:54:18.596] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:75:25
+Parsing ecmascript source code failed
+  73 |                             </
+  74 |
+> 75 |                         </div>
+     |                         ^
+  76 |                         <div className='col-md-6'>
+  77 |                             <div className="expert-card">
+  78 |                                 <div className='d-flex'>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:18.596] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:75:26
+Parsing ecmascript source code failed
+  73 |                             </
+  74 |
+> 75 |                         </div>
+     |                          ^^^^^
+  76 |                         <div className='col-md-6'>
+  77 |                             <div className="expert-card">
+  78 |                                 <div className='d-flex'>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:19.018] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:75:25
+Parsing ecmascript source code failed
+  73 |                             </
+  74 |
+> 75 |                         </div>
+     |                         ^
+  76 |                         <div className='col-md-6'>
+  77 |                             <div className="expert-card">
+  78 |                                 <div className='d-flex'>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:19.018] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:75:26
+Parsing ecmascript source code failed
+  73 |                             </
+  74 |
+> 75 |                         </div>
+     |                          ^^^^^
+  76 |                         <div className='col-md-6'>
+  77 |                             <div className="expert-card">
+  78 |                                 <div className='d-flex'>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:25.318] Server  LOG      ✓ Compiled in 763ms
+[01:54:25.412] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:101:31
+Parsing ecmascript source code failed
+   99 |                             </div>
+  100 |
+> 101 |                         </div>
+      |                               ^
+> 102 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  103 |                             <div className="expert-card">
+  104 |                                 <div className='d-flex'>
+  105 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:26.039] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:101:31
+Parsing ecmascript source code failed
+   99 |                             </div>
+  100 |
+> 101 |                         </div>
+      |                               ^
+> 102 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  103 |                             <div className="expert-card">
+  104 |                                 <div className='d-flex'>
+  105 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:29.980] Server  LOG      ✓ Compiled in 45ms
+[01:54:30.087] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:128:31
+Parsing ecmascript source code failed
+  126 |                             </div>
+  127 |
+> 128 |                         </div>
+      |                               ^
+> 129 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  130 |                             <div className="expert-card">
+  131 |                                 <div className='d-flex'>
+  132 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:31.034] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:128:31
+Parsing ecmascript source code failed
+  126 |                             </div>
+  127 |
+> 128 |                         </div>
+      |                               ^
+> 129 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  130 |                             <div className="expert-card">
+  131 |                                 <div className='d-flex'>
+  132 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:35.288] Server  LOG      ✓ Compiled in 43ms
+[01:54:35.394] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:155:31
+Parsing ecmascript source code failed
+  153 |                             </div>
+  154 |
+> 155 |                         </div>
+      |                               ^
+> 156 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  157 |                             <div className="expert-card">
+  158 |                                 <div className='d-flex'>
+  159 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:36.020] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:155:31
+Parsing ecmascript source code failed
+  153 |                             </div>
+  154 |
+> 155 |                         </div>
+      |                               ^
+> 156 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  157 |                             <div className="expert-card">
+  158 |                                 <div className='d-flex'>
+  159 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:40.056] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:182:31
+Parsing ecmascript source code failed
+  180 |                             </div>
+  181 |
+> 182 |                         </div>
+      |                               ^
+> 183 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  184 |                             <div className="expert-card">
+  185 |                                 <div className='d-flex'>
+  186 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:41.039] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:182:31
+Parsing ecmascript source code failed
+  180 |                             </div>
+  181 |
+> 182 |                         </div>
+      |                               ^
+> 183 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  184 |                             <div className="expert-card">
+  185 |                                 <div className='d-flex'>
+  186 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:44.788] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:209:31
+Parsing ecmascript source code failed
+  207 |                             </div>
+  208 |
+> 209 |                         </div>
+      |                               ^
+> 210 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  211 |                             <div className="expert-card">
+  212 |                                 <div className='d-flex'>
+  213 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:45.141] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:209:31
+Parsing ecmascript source code failed
+  207 |                             </div>
+  208 |
+> 209 |                         </div>
+      |                               ^
+> 210 |                         <div className='col-md-6'>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  211 |                             <div className="expert-card">
+  212 |                                 <div className='d-flex'>
+  213 |                                     <div className='useImgbox'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:50.069] Server  LOG      ✓ Compiled in 790ms
+[01:54:50.165] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:236:31
+Parsing ecmascript source code failed
+  234 |                             </div>
+  235 |
+> 236 |                         </div>
+      |                               ^
+> 237 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^
+  238 |                 </div>
+  239 |             </div>
+  240 |         </>
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:54:51.021] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx:236:31
+Parsing ecmascript source code failed
+  234 |                             </div>
+  235 |
+> 236 |                         </div>
+      |                               ^
+> 237 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^
+  238 |                 </div>
+  239 |             </div>
+  240 |         </>
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/SearchDiscoverUsers.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/searchdiscoverusers/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/searchdiscoverusers/page.tsx [Server Component]
+[01:56:37.252] Server  LOG      ✓ Compiled in 320ms
+[01:56:37.362] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/HeaderTop.tsx:22:31
+Parsing ecmascript source code failed
+  20 |                                 </span>
+  21 |                             </Link>
+> 22 |                         </div>
+     |                               ^
+> 23 |                         <div className='header-drop'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |                             <div className='drop-down-box'>
+  25 |                                 <Dropdown>
+  26 |                                     <Dropdown.Toggle variant="" id="dropdown-basic" className='p-0'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/HeaderTop.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/profiledetails/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/HeaderTop.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/profiledetails/page.tsx [Server Component]
+[01:56:38.020] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/HeaderTop.tsx:22:31
+Parsing ecmascript source code failed
+  20 |                                 </span>
+  21 |                             </Link>
+> 22 |                         </div>
+     |                               ^
+> 23 |                         <div className='header-drop'>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |                             <div className='drop-down-box'>
+  25 |                                 <Dropdown>
+  26 |                                     <Dropdown.Toggle variant="" id="dropdown-basic" className='p-0'>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/HeaderTop.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/profiledetails/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/HeaderTop.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/profiledetails/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/profiledetails/page.tsx [Server Component]
+[01:57:03.676] Server  LOG      ✓ Compiled in 1336ms
+[01:57:26.195] Server  LOG      ✓ Compiled in 388ms
+[01:57:44.571] Server  LOG      ✓ Compiled in 176ms
+[01:57:59.328] Server  LOG      ○ Compiling /discovermentorflow/sessionbooking ...
+[01:58:05.222] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/discoverm..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/raju-sir/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[01:58:07.349] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:58:16.595] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:58:48.503] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:58:48.503] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:59:07.574] Server  LOG      ✓ Compiled in 302ms
+[01:59:21.716] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:00:07.413] Server  LOG      ✓ Compiled in 752ms
+[02:01:58.299] Server  LOG      ✓ Compiled in 262ms
+[02:01:58.426] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[02:02:01.378] Server  LOG      ✓ Compiled in 143ms
+[02:02:01.489] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx:82:21
+Parsing ecmascript source code failed
+  80 |                 <div className='modal-button position-relative z-1'>
+  81 |                     <Link href={}>
+> 82 |                     </Link>
+     |                     ^
+  83 |                     <button className="btn-theme btn-yellow w-100">Back to Home</button>
+  84 |                     <button className="btn-theme btn-black w-100">View My Bookings</button>
+  85 |                 </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+[02:02:01.489] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx:82:22
+Parsing ecmascript source code failed
+  80 |                 <div className='modal-button position-relative z-1'>
+  81 |                     <Link href={}>
+> 82 |                     </Link>
+     |                      ^^^^^^
+  83 |                     <button className="btn-theme btn-yellow w-100">Back to Home</button>
+  84 |                     <button className="btn-theme btn-black w-100">View My Bookings</button>
+  85 |                 </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+[02:02:02.023] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx:82:21
+Parsing ecmascript source code failed
+  80 |                 <div className='modal-button position-relative z-1'>
+  81 |                     <Link href={}>
+> 82 |                     </Link>
+     |                     ^
+  83 |                     <button className="btn-theme btn-yellow w-100">Back to Home</button>
+  84 |                     <button className="btn-theme btn-black w-100">View My Bookings</button>
+  85 |                 </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+[02:02:02.023] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx:82:22
+Parsing ecmascript source code failed
+  80 |                 <div className='modal-button position-relative z-1'>
+  81 |                     <Link href={}>
+> 82 |                     </Link>
+     |                      ^^^^^^
+  83 |                     <button className="btn-theme btn-yellow w-100">Back to Home</button>
+  84 |                     <button className="btn-theme btn-black w-100">View My Bookings</button>
+  85 |                 </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+[02:02:03.685] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:34.849] Server  LOG      ✓ Compiled in 63ms
+[02:02:37.350] Server  LOG      ✓ Compiled in 81ms
+[02:02:42.920] Server  LOG      ✓ Compiled in 751ms
+[02:02:47.932] Server  LOG      ✓ Compiled in 706ms
+[02:02:48.035] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx:86:23
+Parsing ecmascript source code failed
+  84 |                     <Link href="/discovermentorflow/discover">
+  85 |                     <button className="btn-theme btn-black w-100">View My Bookings</button>
+> 86 |                 </div>
+     |                       ^
+> 87 |
+     | ^
+> 88 |             </Modal.Body>
+     | ^^^^^^^^^^^^^
+  89 |         </Modal>
+  90 |     )
+  91 | }
+
+Expected '</', got 'jsx text (
+
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+[02:02:48.065] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx:86:23
+Parsing ecmascript source code failed
+  84 |                     <Link href="/discovermentorflow/discover">
+  85 |                     <button className="btn-theme btn-black w-100">View My Bookings</button>
+> 86 |                 </div>
+     |                       ^
+> 87 |
+     | ^
+> 88 |             </Modal.Body>
+     | ^^^^^^^^^^^^^
+  89 |         </Modal>
+  90 |     )
+  91 | }
+
+Expected '</', got 'jsx text (
+
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./raju-sir/EXP-I/EXP-02/src/components/modalcomponents/BookingSummary.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Client Component SSR]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/SessionBooking.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/components/discovermentorflow/sessionbooking/Home.tsx [Server Component]
+    ./raju-sir/EXP-I/EXP-02/src/app/discovermentorflow/sessionbooking/page.tsx [Server Component]
+[02:02:54.068] Server  LOG      ✓ Compiled in 3.9s
+[02:03:13.613] Server  LOG      ✓ Compiled in 202ms
+[02:03:26.013] Server  LOG      ✓ Compiled in 74ms
+[02:03:34.702] Server  LOG      ✓ Compiled in 205ms
+[02:03:37.438] Server  LOG      ✓ Compiled in 123ms
+[02:03:44.145] Server  LOG      ✓ Compiled in 263ms
+[02:03:45.333] Server  LOG      ✓ Compiled in 65ms
+[02:04:07.012] Server  LOG      ✓ Compiled in 120ms
+[02:04:09.427] Server  LOG      ✓ Compiled in 202ms
+[02:04:12.124] Server  LOG      ✓ Compiled in 221ms
+[02:04:23.153] Server  LOG      ✓ Compiled in 72ms
+[02:04:27.647] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:05:14.124] Server  LOG      ✓ Compiled in 44ms
+[02:07:21.258] Server  LOG      ✓ Compiled in 1437ms
+[02:07:21.365] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/app/globals.css:4309:3
+Parsing CSS source code failed
+  4307 |
+  4308 |
+> 4309 | a:
+       |   ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/app/globals.css [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/app/layout.tsx [Server Component]
+[02:07:21.869] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/app/globals.css:4309:2
+Parsing CSS source code failed
+  4307 |
+  4308 |
+> 4309 | a
+       |  ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/app/globals.css [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/app/layout.tsx [Server Component]
+[02:07:22.030] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/app/globals.css:4309:3
+Parsing CSS source code failed
+  4307 |
+  4308 |
+> 4309 | a:
+       |   ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/app/globals.css [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/app/layout.tsx [Server Component]
+[02:07:22.030] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/app/globals.css:4309:2
+Parsing CSS source code failed
+  4307 |
+  4308 |
+> 4309 | a
+       |  ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./raju-sir/EXP-I/EXP-02/src/app/globals.css [Client Component Browser]
+    ./raju-sir/EXP-I/EXP-02/src/app/layout.tsx [Server Component]
+[02:07:31.097] Server  LOG      ✓ Compiled in 1115ms
+[02:09:11.274] Server  LOG      ✓ Compiled in 71ms
+[02:12:48.335] Server  LOG      ✓ Compiled in 1585ms
+[02:12:51.935] Server  LOG      ✓ Compiled in 2.4s
+[02:13:05.258] Server  LOG      ✓ Compiled in 79ms
+[02:13:08.939] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:13:14.853] Server  LOG      ○ Compiling /createPosts/postPreview ...
+[02:13:24.945] Browser ERROR   uncaughtError: Error: React has blocked a javascript: URL as a security precaution.
+[02:14:15.380] Server  LOG      ✓ Compiled in 778ms
+[02:14:16.021] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[02:14:18.234] Server  LOG      ✓ Compiled in 79ms
+[02:14:18.295] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:14:23.177] Server  LOG      ✓ Compiled in 152ms
+[02:14:23.781] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/createPos..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/raju-sir/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[02:14:24.100] Browser WARN    Image with src "/_next/static/media/preview-post.dc26b291.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:14:25.516] Browser ERROR   uncaughtError: Error: React has blocked a javascript: URL as a security precaution.
+[02:14:27.436] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:14:49.600] Server  LOG      ✓ Compiled in 1399ms
+[02:15:24.819] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <div className="sec-profil...">
+      <div>
+      <div className="profile-de...">
+        <div>
+        <ProfileSlider>
+          <Swiper modules={[...]} direction="vertical" spaceBetween={0} slidesPerView={1} navigation={true} ...>
+            <div ref={{...}} className="swiper swi...">
+              <div className="swiper-wra...">
+                <SwiperSlide swiper={{...}} swiperSlideIndex={0}>
+                  <div ref={{...}} className="swiper-sli..." data-swiper-slide-index={undefined} onLoad={function onLoad}>
+                    <div className="slide-content">
+                      <img>
+                      <div className="actions">
+                        <LinkComponent>
+                        <LinkComponent>
+                        <LinkComponent>
+                        <LinkComponent href="" className="actions-li...">
+>                         <a
+>                           className="actions-links d-none d-md-flex"
+>                           ref={function}
+>                           onClick={function onClick}
+>                           onMouseEnter={function onMouseEnter}
+>                           onTouchStart={function onTouchStart}
+>                           href=""
+>                         >
+                            ...
+                              <div x-placement="bottom-end" ref={function} aria-labelledby="react-aria..." style={{}} ...>
+                                <DropdownItem href="#/action-1">
+                                  <Anchor href="#/action-1" onClick={function useEventCallback.useCallback} ...>
+>                                   <a
+>                                     ref={null}
+>                                     href="#/action-1"
+>                                     onClick={function useEventCallback.useCallback}
+>                                     aria-disabled={undefined}
+>                                     aria-selected={undefined}
+>                                     data-rr-ui-dropdown-item=""
+>                                     className="dropdown-item"
+>                                     onKeyDown={undefined}
+>                                   >
+                                ...
+                      ...
+                ...
+                ...
+              ...
+        ...
+      ...
+
+[02:15:24.819] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[02:15:37.579] Browser ERROR   uncaughtError: Error: React has blocked a javascript: URL as a security precaution.
+[02:16:12.349] Server  LOG      ✓ Compiled in 574ms
+[02:16:18.133] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[02:16:18.133] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[02:16:18.133] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[02:16:18.133] Browser WARN    Image with src "http://localhost:3000/_next/static/media/wallet-coin.7bbbbb0d.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:17:02.201] Server  LOG      ✓ Compiled in 96ms
+[02:17:11.358] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[02:18:00.492] Server  LOG      ✓ Compiled in 184ms
+[02:18:01.014] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/profileflow/myaccount/MyAccount.tsx:51:29
+Parsing ecmascript source code failed
+  49 |                 </Link>
+  50 |               </div>
+> 51 |               <Link href={} className="edit-btn">
+     |                             ^^^^^^^^^
+  52 |                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+  53 |                   <path d="M17.7586 5.73206L14.268 2.24065C14.1519 2.12455 14.0141 2.03245 13.8624 1.96961C13.7107 1.90678 13.5482 1.87444 13.384 1.87444C13.2198 1.87444 13.0572 1.90678 12.9056 1.96961C12.7539 2.03245 12.6161 2.12455 12.5 2.24065L2.86641 11.875C2.74983 11.9907 2.65741 12.1284 2.59451 12.28C2.5316 12.4317 2.49948 12.5944 2.50001 12.7586V16.25C2.50001 16.5815 2.6317 16.8995 2.86612 17.1339C3.10054 17.3683 3.41849 17.5 3.75001 17.5H7.24141C7.40563 17.5006 7.56831 17.4684 7.71999 17.4055C7.87168 17.3426 8.00935 17.2502 8.12501 17.1336L17.7586 7.50003C17.8747 7.38395 17.9668 7.24614 18.0296 7.09446C18.0925 6.94279 18.1248 6.78022 18.1248 6.61604C18.1248 6.45187 18.0925 6.2893 18.0296 6.13762C17.9668 5.98595 17.8747 5.84814 17.7586 5.73206ZM7.24141 16.25H3.75001V12.7586L10.625 5.88362L14.1164 9.37503L7.24141 16.25ZM15 8.49065L11.5086 5.00003L13.3836 3.12503L16.875 6.61565L15 8.49065Z" fill="currentColor" />
+  54 |                 </svg>
+
+Expected '</', got 'className'
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/profileflow/myaccount/MyAccount.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/profileflow/myaccount/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/profileflow/myaccount/page.tsx
+[02:18:08.626] Server  LOG      ✓ Compiled in 4.6s
+[02:18:12.217] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[02:18:12.217] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[02:18:12.217] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[02:18:12.217] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/profilefl..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/raju-sir/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[02:18:12.217] Browser WARN    Image with src "http://localhost:3000/_next/static/media/wallet-coin.7bbbbb0d.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:46.696] Server  LOG      ✓ Compiled in 64ms
+[02:18:47.026] Browser ERROR   ./raju-sir/EXP-I/EXP-02/src/components/profileflow/myaccount/MyAccount.tsx:57:19
+Parsing ecmascript source code failed
+  55 |                 </svg>
+  56 |                 Edit</Link>
+> 57 |             </div>
+     |                   ^
+> 58 |
+     | ^
+> 59 |             <ul className="menu-list mb-32">
+     | ^^^^^^^^^^^^^
+  60 |               <li>
+  61 |                 <Link href="" className="menu-link">
+  62 |                   <span className="icon">
+
+Expected '</', got 'jsx text (
+
+            )'
+
+Import trace:
+  Server Component:
+    ./raju-sir/EXP-I/EXP-02/src/components/profileflow/myaccount/MyAccount.tsx
+    ./raju-sir/EXP-I/EXP-02/src/components/profileflow/myaccount/Home.tsx
+    ./raju-sir/EXP-I/EXP-02/src/app/profileflow/myaccount/page.tsx
+[02:18:51.504] Server  LOG      ✓ Compiled in 149ms
+[02:18:52.838] Server  LOG      ✓ Compiled in 180ms
+[02:19:03.742] Server  LOG      ✓ Compiled in 132ms
+[02:19:10.596] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:20:17.220] Server  LOG      ✓ Compiled in 302ms
+[02:20:20.647] Server  LOG      ✓ Compiled in 352ms
+[02:20:35.627] Server  LOG      ✓ Compiled in 694ms
+[02:20:48.085] Server  LOG      ✓ Compiled in 53ms
+[02:21:09.462] Server  LOG      ✓ Compiled in 708ms
+[02:21:25.833] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[02:21:25.833] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[02:21:25.833] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[02:21:25.833] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:21:25.974] Browser WARN    Image with src "http://localhost:3000/_next/static/media/wallet-coin.7bbbbb0d.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:22:28.242] Server  LOG      ○ Compiling /profileflow/securePayment ...
+[02:24:00.951] Server  LOG      ✓ Compiled in 637ms
+[02:24:08.034] Server  LOG      ✓ Compiled in 255ms
+[02:24:10.887] Server  LOG      ✓ Compiled in 753ms
+[02:24:18.030] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:24:24.640] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath

@@ -32,7 +32,7 @@ const MyAccount = () => {
                 </div>
               </div>
             </div>
-            <Link href="" className="btn-theme w-100 wallet-btn" onClick={handlePaymentDetails}>View Wallet
+            <Link href="/walletflow/mytransections" className="btn-theme w-100 wallet-btn" onClick={handlePaymentDetails}>View Wallet
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M13.5004 0.75V10.5C13.5004 10.6989 13.4214 10.8897 13.2807 11.0303C13.1401 11.171 12.9493 11.25 12.7504 11.25C12.5515 11.25 12.3607 11.171 12.2201 11.0303C12.0794 10.8897 12.0004 10.6989 12.0004 10.5V2.56031L1.28104 13.2806C1.14031 13.4214 0.94944 13.5004 0.750417 13.5004C0.551394 13.5004 0.360522 13.4214 0.219792 13.2806C0.0790615 13.1399 0 12.949 0 12.75C0 12.551 0.0790615 12.3601 0.219792 12.2194L10.9401 1.5H3.00042C2.8015 1.5 2.61074 1.42098 2.47009 1.28033C2.32943 1.13968 2.25042 0.948912 2.25042 0.75C2.25042 0.551088 2.32943 0.360322 2.47009 0.21967C2.61074 0.0790178 2.8015 0 3.00042 0H12.7504C12.9493 0 13.1401 0.0790178 13.2807 0.21967C13.4214 0.360322 13.5004 0.551088 13.5004 0.75Z" fill="currentColor" />
               </svg>
@@ -41,18 +41,20 @@ const MyAccount = () => {
           </div>
           <div className='col-lg-8'>
             <div className="profile-header">
-              <Image src={ProfleImg} alt="" />
+                <Link href="/profileflow/myprofileposts" className="email">
+                  <Image src={ProfleImg} alt="" />
+                </Link>
               <div className="flex-grow-1">
                 <h3>Jessica M. Sanor</h3>
                 <Link href="mailto:johansimon001@gmail.com" className="email">
                   johansimon001@gmail.com
                 </Link>
               </div>
-              <button className="edit-btn">
+              <Link href="/profileflow/editprofilestudent" className="edit-btn">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M17.7586 5.73206L14.268 2.24065C14.1519 2.12455 14.0141 2.03245 13.8624 1.96961C13.7107 1.90678 13.5482 1.87444 13.384 1.87444C13.2198 1.87444 13.0572 1.90678 12.9056 1.96961C12.7539 2.03245 12.6161 2.12455 12.5 2.24065L2.86641 11.875C2.74983 11.9907 2.65741 12.1284 2.59451 12.28C2.5316 12.4317 2.49948 12.5944 2.50001 12.7586V16.25C2.50001 16.5815 2.6317 16.8995 2.86612 17.1339C3.10054 17.3683 3.41849 17.5 3.75001 17.5H7.24141C7.40563 17.5006 7.56831 17.4684 7.71999 17.4055C7.87168 17.3426 8.00935 17.2502 8.12501 17.1336L17.7586 7.50003C17.8747 7.38395 17.9668 7.24614 18.0296 7.09446C18.0925 6.94279 18.1248 6.78022 18.1248 6.61604C18.1248 6.45187 18.0925 6.2893 18.0296 6.13762C17.9668 5.98595 17.8747 5.84814 17.7586 5.73206ZM7.24141 16.25H3.75001V12.7586L10.625 5.88362L14.1164 9.37503L7.24141 16.25ZM15 8.49065L11.5086 5.00003L13.3836 3.12503L16.875 6.61565L15 8.49065Z" fill="currentColor" />
                 </svg>
-                Edit</button>
+                Edit</Link>
             </div>
 
             <ul className="menu-list mb-32">
