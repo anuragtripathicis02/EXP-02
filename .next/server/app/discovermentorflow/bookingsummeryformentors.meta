@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/discovermentorflow/layout,_N_T_/discovermentorflow/bookingsummeryformentors/layout,_N_T_/discovermentorflow/bookingsummeryformentors/page,_N_T_/discovermentorflow/bookingsummeryformentors"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/discovermentorflow/bookingsummeryformentors/__PAGE__",
+    "/discovermentorflow/bookingsummeryformentors",
+    "/discovermentorflow",
+    "/_index"
+  ]
+}

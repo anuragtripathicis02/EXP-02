@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/profileflow/layout,_N_T_/profileflow/termsConditions/layout,_N_T_/profileflow/termsConditions/page,_N_T_/profileflow/termsConditions"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/profileflow/termsConditions/__PAGE__",
+    "/profileflow/termsConditions",
+    "/profileflow",
+    "/_index"
+  ]
+}

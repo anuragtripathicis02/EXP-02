@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/discovermentorflow/layout,_N_T_/discovermentorflow/searchdiscoverusers/layout,_N_T_/discovermentorflow/searchdiscoverusers/page,_N_T_/discovermentorflow/searchdiscoverusers"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/discovermentorflow/searchdiscoverusers/__PAGE__",
+    "/discovermentorflow/searchdiscoverusers",
+    "/discovermentorflow",
+    "/_index"
+  ]
+}

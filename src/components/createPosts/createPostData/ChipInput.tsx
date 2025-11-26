@@ -1,9 +1,14 @@
 "use client";
 import { useState } from "react";
+import type { ChangeEvent, KeyboardEvent } from "react";
 
-export default function ChipInput({ limit = 15 }) {
-  const [chips, setChips] = useState([]);  
-  const [inputValue, setInputValue] = useState("");
+interface ChipInputProps {
+  limit?: number;
+}
+
+export default function ChipInput({ limit = 15 }: ChipInputProps) {
+  const [chips, setChips] = useState<string[]>([]);
+  const [inputValue, setInputValue] = useState<string>("");
 
   const addChip = () => {
     const value = inputValue.trim();
@@ -16,7 +21,7 @@ export default function ChipInput({ limit = 15 }) {
     setInputValue("");
   };
 
-  const handleKeyDown = (e) => {
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter" || e.key === "," || e.key === "Tab") {
       e.preventDefault();
       addChip();
@@ -27,7 +32,7 @@ export default function ChipInput({ limit = 15 }) {
     }
   };
 
-  const removeChip = (index) => {
+  const removeChip = (index: number) => {
     setChips(chips.filter((_, i) => i !== index));
   };
 
@@ -45,7 +50,7 @@ export default function ChipInput({ limit = 15 }) {
 
         <input
           value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
+          onChange={(e: ChangeEvent<HTMLInputElement>) => setInputValue(e.target.value)}
           onKeyDown={handleKeyDown}
         />
       </div>

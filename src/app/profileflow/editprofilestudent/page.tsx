@@ -1,9 +1,11 @@
 import Home from '@/components/profileflow/editprofilestudent/Home'
-import React from 'react'
+import React, { Suspense } from 'react'
 
 const page = () => {
   return (
-    <Home/>
+    <Suspense fallback={null}>
+      <Home />
+    </Suspense>
   )
 }
 

@@ -134,7 +134,13 @@ const ProfileSlider = () => {
                             muted={muted}
                             loop
                             playsInline
-                            onLoadedMetadata={(e) => e.target.play()}
+                            onLoadedMetadata={(e) => {
+                                const vid = e.currentTarget as HTMLVideoElement;
+                                const p = vid.play();
+                                if (p && typeof (p as Promise<any>).catch === "function") {
+                                    (p as Promise<any>).catch(() => { });
+                                }
+                            }}
                             style={{
                                 width: "100%",
                                 height: "100%",

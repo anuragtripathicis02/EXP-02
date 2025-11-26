@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/authentication/layout,_N_T_/authentication/sentlink/layout,_N_T_/authentication/sentlink/page,_N_T_/authentication/sentlink"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/authentication/sentlink/__PAGE__",
+    "/authentication/sentlink",
+    "/authentication",
+    "/_index"
+  ]
+}

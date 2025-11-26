@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,99700,c=>{c.v("/_next/static/media/slidebar-logo.95c73e6c.svg")},15205,c=>{c.v("/_next/static/media/profile-card-img.262c3cff.png")}]);

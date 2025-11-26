@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/onboardingFlow/layout,_N_T_/onboardingFlow/roleselection/layout,_N_T_/onboardingFlow/roleselection/page,_N_T_/onboardingFlow/roleselection"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/onboardingFlow/roleselection/__PAGE__",
+    "/onboardingFlow/roleselection",
+    "/onboardingFlow",
+    "/_index"
+  ]
+}

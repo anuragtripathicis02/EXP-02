@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/profileflow/layout,_N_T_/profileflow/helpandsupport/layout,_N_T_/profileflow/helpandsupport/page,_N_T_/profileflow/helpandsupport"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/profileflow/helpandsupport/__PAGE__",
+    "/profileflow/helpandsupport",
+    "/profileflow",
+    "/_index"
+  ]
+}

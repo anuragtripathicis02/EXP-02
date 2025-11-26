@@ -1,0 +1,278 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/authentication/forgotpassword",
+      "regex": "^/authentication/forgotpassword(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/forgotpassword(?:/)?$"
+    },
+    {
+      "page": "/authentication/sentlink",
+      "regex": "^/authentication/sentlink(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/sentlink(?:/)?$"
+    },
+    {
+      "page": "/authentication/setnewpassword",
+      "regex": "^/authentication/setnewpassword(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/setnewpassword(?:/)?$"
+    },
+    {
+      "page": "/authentication/setnewpasswordsuccess",
+      "regex": "^/authentication/setnewpasswordsuccess(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/setnewpasswordsuccess(?:/)?$"
+    },
+    {
+      "page": "/authentication/signin",
+      "regex": "^/authentication/signin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/signin(?:/)?$"
+    },
+    {
+      "page": "/authentication/signup",
+      "regex": "^/authentication/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/signup(?:/)?$"
+    },
+    {
+      "page": "/authentication/verifyemail",
+      "regex": "^/authentication/verifyemail(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/verifyemail(?:/)?$"
+    },
+    {
+      "page": "/createPosts/createPostData",
+      "regex": "^/createPosts/createPostData(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/createPosts/createPostData(?:/)?$"
+    },
+    {
+      "page": "/createPosts/postPreview",
+      "regex": "^/createPosts/postPreview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/createPosts/postPreview(?:/)?$"
+    },
+    {
+      "page": "/discovermentorflow/bookingsummeryformentors",
+      "regex": "^/discovermentorflow/bookingsummeryformentors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/discovermentorflow/bookingsummeryformentors(?:/)?$"
+    },
+    {
+      "page": "/discovermentorflow/bookingsummeryforstudents",
+      "regex": "^/discovermentorflow/bookingsummeryforstudents(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/discovermentorflow/bookingsummeryforstudents(?:/)?$"
+    },
+    {
+      "page": "/discovermentorflow/discover",
+      "regex": "^/discovermentorflow/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/discovermentorflow/discover(?:/)?$"
+    },
+    {
+      "page": "/discovermentorflow/mybookings",
+      "regex": "^/discovermentorflow/mybookings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/discovermentorflow/mybookings(?:/)?$"
+    },
+    {
+      "page": "/discovermentorflow/profiledetails",
+      "regex": "^/discovermentorflow/profiledetails(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/discovermentorflow/profiledetails(?:/)?$"
+    },
+    {
+      "page": "/discovermentorflow/searchdiscoverusers",
+      "regex": "^/discovermentorflow/searchdiscoverusers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/discovermentorflow/searchdiscoverusers(?:/)?$"
+    },
+    {
+      "page": "/discovermentorflow/sessionbooking",
+      "regex": "^/discovermentorflow/sessionbooking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/discovermentorflow/sessionbooking(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/messagingFlow/chat",
+      "regex": "^/messagingFlow/chat(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/messagingFlow/chat(?:/)?$"
+    },
+    {
+      "page": "/messagingFlow/chatconversation",
+      "regex": "^/messagingFlow/chatconversation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/messagingFlow/chatconversation(?:/)?$"
+    },
+    {
+      "page": "/messagingFlow/chatEmpty",
+      "regex": "^/messagingFlow/chatEmpty(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/messagingFlow/chatEmpty(?:/)?$"
+    },
+    {
+      "page": "/notifications",
+      "regex": "^/notifications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/notifications(?:/)?$"
+    },
+    {
+      "page": "/onboardingFlow/roleselection",
+      "regex": "^/onboardingFlow/roleselection(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/onboardingFlow/roleselection(?:/)?$"
+    },
+    {
+      "page": "/onboardingFlow/verifyId",
+      "regex": "^/onboardingFlow/verifyId(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/onboardingFlow/verifyId(?:/)?$"
+    },
+    {
+      "page": "/profileflow/aboutapp",
+      "regex": "^/profileflow/aboutapp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/aboutapp(?:/)?$"
+    },
+    {
+      "page": "/profileflow/aboutexpapp",
+      "regex": "^/profileflow/aboutexpapp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/aboutexpapp(?:/)?$"
+    },
+    {
+      "page": "/profileflow/editprofilestudent",
+      "regex": "^/profileflow/editprofilestudent(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/editprofilestudent(?:/)?$"
+    },
+    {
+      "page": "/profileflow/encryption",
+      "regex": "^/profileflow/encryption(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/encryption(?:/)?$"
+    },
+    {
+      "page": "/profileflow/helpandsupport",
+      "regex": "^/profileflow/helpandsupport(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/helpandsupport(?:/)?$"
+    },
+    {
+      "page": "/profileflow/myaccount",
+      "regex": "^/profileflow/myaccount(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/myaccount(?:/)?$"
+    },
+    {
+      "page": "/profileflow/myprofileposts",
+      "regex": "^/profileflow/myprofileposts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/myprofileposts(?:/)?$"
+    },
+    {
+      "page": "/profileflow/notificationsettings",
+      "regex": "^/profileflow/notificationsettings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/notificationsettings(?:/)?$"
+    },
+    {
+      "page": "/profileflow/privacyPolicies",
+      "regex": "^/profileflow/privacyPolicies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/privacyPolicies(?:/)?$"
+    },
+    {
+      "page": "/profileflow/profileReviews",
+      "regex": "^/profileflow/profileReviews(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/profileReviews(?:/)?$"
+    },
+    {
+      "page": "/profileflow/securePayment",
+      "regex": "^/profileflow/securePayment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/securePayment(?:/)?$"
+    },
+    {
+      "page": "/profileflow/termsConditions",
+      "regex": "^/profileflow/termsConditions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profileflow/termsConditions(?:/)?$"
+    },
+    {
+      "page": "/walletflow/mytransections",
+      "regex": "^/walletflow/mytransections(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/walletflow/mytransections(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

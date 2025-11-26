@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/walletflow/layout,_N_T_/walletflow/mytransections/layout,_N_T_/walletflow/mytransections/page,_N_T_/walletflow/mytransections"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/walletflow/mytransections/__PAGE__",
+    "/walletflow/mytransections",
+    "/walletflow",
+    "/_index"
+  ]
+}
